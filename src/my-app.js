@@ -53,8 +53,12 @@ class MyApp extends LitElement {
         .toc {
           font-size: 15px;
         }
-        .toc-indent {
-          margin-left: 100px;
+        .cover {
+          float: left;
+          height: 300px;
+        }
+        .parent {
+          float: left
         }
         @keyframes app-logo-spin {
           from {
@@ -103,19 +107,19 @@ class MyApp extends LitElement {
 
             ${this.response.title}
           </div >
-            <div >
-              <img 
+            <div class = "parent">
+              <img class = "cover"
               src="${`https://d1re4mvb3lawey.cloudfront.net/pg1017/cover.jpg`}"
               />
               <small>
                 <b>isbn:</b> ${this.response.isbn} 
-                <b>Authors:</b> ${this.response.contributors}
+                <div><b>Authors:</b> ${this.response.contributors}</div>
               </small>
             </div>
             <button @click = ${this.showTOC}> Table of Contents </button>
             <sub class = toc>
-              ${this.showContents ? html ` :${this.toc.map(item => html`
-                <div >${item.title}</div>
+              ${this.showContents ? html ` ${this.toc.map(item => html`
+                <li >${item.title}</li>
               `)}`: ''
             }
             </sub>
