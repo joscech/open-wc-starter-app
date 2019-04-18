@@ -1,32 +1,9 @@
-<p align="center">
-  <img width="200" src="https://open-wc.org/hero.png"></img>
-</p>
+I started with getting the information from the .json into the app.
 
-# Open-wc Starter App
+I then worked on getting the image to display for the cover.
 
-[![Built with open-wc recommendations](https://img.shields.io/badge/built%20with-open--wc-blue.svg)](https://github.com/open-wc)
+I removed the <b> and </b> from the title of each portion of the table of contents as they were out of place.
 
-## Quickstart
+I am used to inline styling with react, so I can't make it as fancy as I would like.
 
-To get started:
-
-```sh
-npm init @open-wc starter-app
-# requires node 10 & npm 6 or higher
-```
-
-<p align="center">
-  <a href="https://open-wc-starter-app.netlify.com/">
-    <img src="./open-wc-starter-app.png"></img>
-  </a>
-</p>
-
-[Live demo](https://open-wc-starter-app.netlify.com/)
-
-
-## Scripts
-- `build` builds your app and outputs it in your dist directory
-- `start:build` runs your built app from dist directory
-- `watch:build` builds and runs your app, rebuilding when input files change
-- `test` runs your test suite with Karma
-- `lint` runs the linter for your project
+I am not familiar with lit-element so with my limited time this is as far as I feel comfortable going.

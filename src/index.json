@@ -1,0 +1,107 @@
+{
+    "isbn": "9780198504467",
+    "title": "Computers in Chemistry",
+    "contributors": [
+      "Pete Biggs"
+    ],
+    "series": "Oxford Chemistry Primer",
+    "toc": [
+      {
+        "file": "epub/html/toc.html",
+        "title": "Table of Contents"
+      },
+      {
+        "file": "epub/html/copyright.html",
+        "first": 0,
+        "length": 1,
+        "title": "Copyright"
+      },
+      {
+        "file": "epub/html/chapter_1.html",
+        "first": 1,
+        "length": 11,
+        "title": "1 Introduction"
+      },
+      {
+        "file": "epub/html/chapter_2.html",
+        "first": 12,
+        "length": 13,
+        "title": "2 The hardware"
+      },
+      {
+        "file": "epub/html/chapter_3.html",
+        "first": 25,
+        "length": 18,
+        "title": "3 Interfacing computers to experiments"
+      },
+      {
+        "file": "epub/html/chapter_4.html",
+        "first": 43,
+        "length": 10,
+        "title": "<b>4 Programming the hardware</b>"
+      },
+      {
+        "file": "epub/html/chapter_5.html",
+        "first": 53,
+        "length": 9,
+        "title": "<b>5 Software for the laboratory</b>"
+      },
+      {
+        "file": "epub/html/chapter_6.html",
+        "first": 62,
+        "length": 11,
+        "title": "6 Computational chemistry"
+      },
+      {
+        "file": "epub/html/chapter_7.html",
+        "first": 73,
+        "length": 14,
+        "title": "7 Presenting information"
+      },
+      {
+        "file": "epub/html/chapter_8.html",
+        "first": 87,
+        "length": 1,
+        "title": "8 Chemistry and the Internet"
+      },
+      {
+        "file": "epub/html/bibliography.html",
+        "first": 88,
+        "length": 1,
+        "title": "<b>Bibliography</b>"
+      },
+      {
+        "file": "epub/html/index.html",
+        "first": 89,
+        "length": 2,
+        "title": "Index"
+      },
+      {
+        "file": "epub/html/figures.html",
+        "title": "Figures"
+      },
+      {
+        "file": "epub/html/foreword.html",
+        "title": "Foreword"
+      },
+      {
+        "file": "epub/html/preface.html",
+        "title": "Preface"
+      },
+      {
+        "file": "epub/html/tables.html",
+        "title": "Tables"
+      }
+    ],
+    "ordinal": 84,
+    "publisher": "Oxford University Press",
+    "pathTo": {
+      "toc": "epub/html/toc.html",
+      "index": "epub/html/index.html"
+    },
+    "flags": {
+      "pages": true
+    },
+    "copyright": "Oxford University Press",
+    "CatalogId": "oupchemistry"
+  }
